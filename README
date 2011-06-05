@@ -5,6 +5,6 @@ http://www.amanjeev.com/2009/12/16/a-very-simple-android-application-for-safety/
 Source code at Github: http://github.com/amanjeev/callHelp/ 
 
 Log:
-* Option to add your number.
+* Option to add your custom emergency number.
 * Option to send SMS/Text message to the number.
 * Option to add custom test message text.
