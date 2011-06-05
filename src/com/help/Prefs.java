@@ -6,14 +6,13 @@
  * @license		: MIT
  */
 
-package com.call;
+package com.help;
 
 import android.os.Bundle;
 import android.content.Intent;
 import android.preference.PreferenceActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-
 
 public class Prefs extends PreferenceActivity {
 	@Override

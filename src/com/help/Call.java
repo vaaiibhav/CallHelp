@@ -6,7 +6,7 @@
  * @license		: MIT
  */
 
-package com.call;
+package com.help;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -35,7 +35,12 @@ public class Call extends Activity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.main);
-
+		
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+		numberTextPref = prefs.getString("numberfield", "911");
+		enableTextPref = prefs.getBoolean("enabletextmessage", false);
+		textMessagePref = prefs.getString("textmessagefield", "Please help me. I may be in trouble.");
+		
 		/* The big fat call button */
 		this.callButton = (Button) this.findViewById(R.id.callbutton);
 
@@ -67,8 +72,10 @@ public class Call extends Activity {
 		super.onResume();
 	}
 
+	
 	public void dial() {
 		try {
+		
 			/* Send a text message if the user wants and the number is not 911*/
 			if (enableTextPref == true && numberTextPref.toString() != "911") {
 				android.telephony.SmsManager sm = android.telephony.SmsManager.getDefault();
