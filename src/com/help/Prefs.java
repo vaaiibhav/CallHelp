@@ -13,6 +13,7 @@ import android.content.Intent;
 import android.preference.PreferenceActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.callhelp.R;
 
 public class Prefs extends PreferenceActivity {
 	@Override
