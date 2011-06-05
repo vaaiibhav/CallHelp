@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Call Help</string>
-    <string name="warning_tagline">Releasing the Emergency Button will call 911</string>
     <string name="explanation">
     	As soon as you release the Emergency Button below, this app will dial your 
     	preferred number or bring up the 911 dial screen for you. 

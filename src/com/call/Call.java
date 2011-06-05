@@ -64,13 +64,6 @@ public class Call extends Activity {
 		numberTextPref = prefs.getString("numberfield", "911");
 		enableTextPref = prefs.getBoolean("enabletextmessage", false);
 		textMessagePref = prefs.getString("textmessagefield", "Please help me. I may be in trouble.");
-				
-		Toast.makeText(getBaseContext(),
-				"Your emegergency number is: " + numberTextPref, 2).show();
-		
-		if (enableTextPref == true && numberTextPref.toString() != "911") {
-			Toast.makeText(getBaseContext(), "A text will be sent to the same number.", 2).show();	
-		}	
 		super.onResume();
 	}
 

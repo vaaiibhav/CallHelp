@@ -14,7 +14,8 @@
     	android:padding="5px"
     	android:layout_marginTop="10px"/>
     	
-    <Button android:id="@+id/callbutton"
+    <Button style="@style/RowButton" 
+    	android:id="@+id/callbutton"
         android:layout_width="fill_parent"
         android:layout_height="300px"
         android:textColor="#000000"
