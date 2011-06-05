@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android">
-	<EditTextPreference
-		android:summary="Please provide the number of your choice to call in emergency."
+	<EditTextPreference		
 		android:title="Number"
-		android:key="numberfield"></EditTextPreference>
+		android:key="numberfield"
+		android:summary="Please provide the number of your choice to call in emergency."
+		android:numeric="decimal"/>
+	<CheckBoxPreference 
+		android:title="Enable Text Message"
+	    android:key="enabletextmessage" 
+	    android:summary="Check to enable emergency text to the number (along with the call)."/>
+	<EditTextPreference
+		android:title="Text Message"
+		android:key="textmessagefield"
+		android:summary="Please input the text message you want to send (a default will be sent if nothing is entered)."
+		android:maxLength="140"			
+		/>
 </PreferenceScreen>

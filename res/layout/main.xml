@@ -4,25 +4,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#eee">
-     
-	<TextView  xmlns:android="http://schemas.android.com/apk/res/android"
-	    android:layout_width="fill_parent" 
-	    android:layout_height="wrap_content" 
-	    android:text="@string/warning_tagline"
-	    android:textColor="#B51010"
-	    android:padding="3px"
-	    android:textSize="16px"/>
-	
-    <Button android:id="@+id/callbutton"
-        android:layout_width="fill_parent"
-        android:layout_height="300px"
-        android:textColor="#000000"
-        android:textSize="60px"
-        android:textScaleX="1.2"
-        android:layout_marginTop="20px"
-        android:text="Press and release to call."/>
     
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	  <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     	android:layout_width="fill_parent"
     	android:layout_height="wrap_content"
     	android:textColor="#000000"
@@ -30,12 +13,15 @@
     	android:textSize="10px"
     	android:padding="5px"
     	android:layout_marginTop="10px"/>
-  <!--   	    
-    <Button android:id="@+id/prefbutton"
-    	android:layout_width="wrap_content"
-        android:layout_height="40px"
+    	
+    <Button android:id="@+id/callbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="300px"
         android:textColor="#000000"
-        android:text="Preferences"
-        android:textSize="11px"/>
-         -->
+        android:textSize="50px"
+        android:textScaleX="1"
+        android:layout_marginTop="20px"
+        android:text="Emergency Button"/>
+    
+   
 </LinearLayout>
