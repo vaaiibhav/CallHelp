@@ -3,11 +3,25 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
-  android:stretchColumns = "1"
-  >
-    <TableRow android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <TextView android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Number"></TextView>
-        <EditText android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+  android:stretchColumns = "1">
+    <TableRow 
+    	android:id="@+id/number_table" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content">
+    	
+        <TextView 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:text="Number"/>
+        	
+        <EditText
+        	android:numeric="decimal"
+        	android:maxLength="10"        
+        	android:id="@+id/numberfield" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content">
+        	</EditText>
+        
     </TableRow>
   
     <LinearLayout android:id="@+id/buttons" 
@@ -17,14 +31,14 @@
         <Button 
            android:layout_height="wrap_content" 
            android:layout_width="wrap_content" 
-           android:id="@+id/button1" 
+           android:id="@+id/savebutton" 
            android:text="save"
            android:layout_weight="1"/>
            
         <Button 
            android:layout_height="wrap_content" 
            android:layout_width="wrap_content" 
-           android:id="@+id/button2" 
+           android:id="@+id/cancelbutton" 
            android:text="cancel"
            android:layout_weight="1"/>
            
