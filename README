@@ -2,7 +2,9 @@ The application is about calling (and texting) for help when you are going throu
 
 http://www.amanjeev.com/2009/12/16/a-very-simple-android-application-for-safety/
 
-If you are interested in looking at the source code, you can do that here at Github. 
+Source code at Github: http://github.com/amanjeev/callHelp/ 
 
-http://github.com/amanjeev/callHelp/ Source code at Github.
-
+Log:
+* Option to add your number.
+* Option to send SMS/Text message to the number.
+* Option to add custom test message text.
