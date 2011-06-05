@@ -9,7 +9,9 @@ The application is about calling (and texting) for help when you are going throu
 Links
 -----
 Application URL: https://market.android.com/details?id=com.callhelp
+
 A blog post: http://www.amanjeev.com/2009/12/16/a-very-simple-android-application-for-safety/
+
 Source code at Github: http://github.com/amanjeev/callHelp/
 
 Log
